@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['sandwich']
+
+roboflow:
+  workspace: imans-workspace-womgk
+  project: my-first-project-unsbd
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/imans-workspace-womgk/my-first-project-unsbd/dataset/1
