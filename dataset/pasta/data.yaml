@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['pasta']
+
+roboflow:
+  workspace: gabbyitchs-workspace
+  project: pasta-9jno3
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gabbyitchs-workspace/pasta-9jno3/dataset/2
